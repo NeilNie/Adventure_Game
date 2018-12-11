@@ -1,0 +1,7 @@
+//
+//
+//
+ module Room_FSM (
+	input move,
+	output location;
+ );

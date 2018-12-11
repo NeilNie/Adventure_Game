@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER1/Digital Logic/Adventure_Game/simulation/qsim
+vAdventure_Game
+!s110 1544457173
+!i10b 1
+!s100 @FW[g82e5cWVPSGXeTNzb2
+IH`6GI@h9RdU41Uz=?H=zV1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544457172
+8Adventure_Game.vo
+FAdventure_Game.vo
+L0 31
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1544457173.000000
+!s107 Adventure_Game.vo|
+!s90 -work|work|Adventure_Game.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@adventure_@game
+vAdventure_Game_vlg_vec_tst
+!s110 1544457174
+!i10b 1
+!s100 dPZdLDdJ1ZZHm9Neh<0o;0
+IcQCJ=5kc=[j[?4QadbXS=2
+R1
+R0
+w1544457170
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1544457174.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+R4
+n@adventure_@game_vlg_vec_tst

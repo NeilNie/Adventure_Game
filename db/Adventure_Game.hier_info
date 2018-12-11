@@ -1,0 +1,62 @@
+|Adventure_Game
+current[0] <= current[0].DB_MAX_OUTPUT_PORT_TYPE
+current[1] <= current[1].DB_MAX_OUTPUT_PORT_TYPE
+current[2] <= current[2].DB_MAX_OUTPUT_PORT_TYPE
+next[0] <= next[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+next[1] <= next[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+next[2] <= next[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.OUTPUTSELECT
+N => next.DATAB
+N => next.DATAB
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+S => next.OUTPUTSELECT
+E => always0.IN1
+E => always0.IN1
+E => next.OUTPUTSELECT
+E => next.OUTPUTSELECT
+E => next.OUTPUTSELECT
+E => next.OUTPUTSELECT
+E => next.OUTPUTSELECT
+E => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.OUTPUTSELECT
+W => next.DATAA
+W => next.DATAA
+W => next.DATAA
+clk => clk.IN1
+WIN <= <GND>
+DIE <= <GND>
+
+
+|Adventure_Game|Sword_FSM:sfsm
+clk => state~reg0.CLK
+in[0] => Equal0.IN1
+in[1] => Equal0.IN0
+in[2] => Equal0.IN2
+state <= state~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+//
+//
+//
+
+module Sword_FSM (
+	input clk, in,
+	output reg state
+);
+
+always @ (posedge clk) 
+	if (in == {011})
+		state <= 1;
+	else
+		state <= 0;
+		
+endmodule
