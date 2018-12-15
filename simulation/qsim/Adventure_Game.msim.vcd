@@ -3,7 +3,7 @@ $comment
 		vcd file Adventure_Game.msim.vcd -direction
 $end
 $date
-	Mon Dec 10 10:52:54 2018
+	Tue Dec 11 23:57:33 2018
 $end
 $version
 	ModelSim Version 10.5b
@@ -38,26 +38,27 @@ $var wire 1 4 ~QUARTUS_CREATED_GND~I_combout $end
 $var wire 1 5 clk~input_o $end
 $var wire 1 6 clk~inputCLKENA0_outclk $end
 $var wire 1 7 W~input_o $end
-$var wire 1 8 N~input_o $end
-$var wire 1 9 E~input_o $end
-$var wire 1 : S~input_o $end
-$var wire 1 ; current[1]~reg0_q $end
-$var wire 1 < current[0]~reg0DUPLICATE_q $end
-$var wire 1 = next~4_combout $end
-$var wire 1 > next~5_combout $end
-$var wire 1 ? next~0_combout $end
-$var wire 1 @ next~6_combout $end
-$var wire 1 A next~3_combout $end
-$var wire 1 B next[1]~reg0_q $end
-$var wire 1 C current[1]~reg0DUPLICATE_q $end
-$var wire 1 D next~7_combout $end
-$var wire 1 E next~8_combout $end
-$var wire 1 F next[2]~reg0_q $end
-$var wire 1 G current[2]~reg0_q $end
-$var wire 1 H next~1_combout $end
-$var wire 1 I next~2_combout $end
+$var wire 1 8 E~input_o $end
+$var wire 1 9 current[1]~reg0_q $end
+$var wire 1 : N~input_o $end
+$var wire 1 ; next~1_combout $end
+$var wire 1 < S~input_o $end
+$var wire 1 = next~2_combout $end
+$var wire 1 > next~3_combout $end
+$var wire 1 ? next[2]~reg0_q $end
+$var wire 1 @ current[2]~reg0_q $end
+$var wire 1 A next~0_combout $end
+$var wire 1 B next~4_combout $end
+$var wire 1 C next[0]~8_combout $end
+$var wire 1 D next[1]~reg0_q $end
+$var wire 1 E current[1]~reg0feeder_combout $end
+$var wire 1 F current[1]~reg0DUPLICATE_q $end
+$var wire 1 G sfsm|state~0_combout $end
+$var wire 1 H sfsm|state~q $end
+$var wire 1 I next~12_combout $end
 $var wire 1 J next[0]~reg0_q $end
-$var wire 1 K current[0]~reg0_q $end
+$var wire 1 K current[0]~reg0feeder_combout $end
+$var wire 1 L current[0]~reg0_q $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -86,8 +87,8 @@ x0
 05
 06
 07
-08
-19
+18
+09
 0:
 0;
 0<
@@ -95,17 +96,18 @@ x0
 0>
 0?
 0@
-1A
+0A
 0B
-0C
-1D
+1C
+0D
 0E
 0F
 0G
 0H
-0I
+1I
 0J
 0K
+0L
 $end
 #2500
 1%
@@ -115,74 +117,140 @@ $end
 0!
 1#
 0%
-09
-1:
+08
+1<
 05
 06
-1H
-0D
-1I
+0C
+1=
 #7500
 1%
 15
 16
 1J
 1-
+1K
 #10000
 0%
 05
 06
+1L
+1*
+1A
+0I
+1B
 #12500
 1%
 15
 16
-1<
-1K
-1*
-0H
-1>
-1@
-0I
+0J
+1D
+1,
+0-
+1E
+0K
 #15000
 1$
 0#
 0%
 17
-0:
+0<
 05
 06
-0>
-0@
+0A
+0B
+1F
+19
+0L
+0*
+1)
+1A
+1I
+1B
 #17500
 1%
 15
 16
-0J
-0-
+1J
+1-
+1K
 #20000
 1!
 0$
 0%
-19
+18
 07
 05
 06
-1D
 0A
+0=
+1;
+0I
+1>
+0B
+1L
+1*
+1G
 #22500
 1%
 15
 16
-0<
+1H
+0J
+0D
+1?
+1+
+0,
+0-
+0E
 0K
-0*
-1A
 #25000
 0%
 05
 06
+0F
+09
+1@
+0L
+0*
+1(
+0)
+1I
 #27500
 1%
 15
 16
+1J
+1-
+1K
 #30000
+0%
+05
+06
+1L
+1*
+1C
+0;
+#32500
+1%
+15
+16
+#35000
+0!
+0%
+08
+05
+06
+#37500
+1%
+15
+16
+#40000
+0%
+05
+06
+#42500
+1%
+15
+16
+#45000

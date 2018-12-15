@@ -3,20 +3,25 @@
 //
 
 module Adventure_Game(
-	current, next,
+	next,
 	N, S, E, W, clk,
 	WIN, DIE
 );
 
+// external variables
 input N, S, E, W, clk;
 output WIN, DIE;
-output reg [2:0] current;
 output reg [2:0] next;
+
+// internal varia|bles
+reg [2:0] current;
 wire sword;
 reg win;
  
-initial
+initial begin
 	current <= 3'b000;
+	next <= 3'b000;
+end
 	
 Sword_FSM sfsm(.clk(clk), .in(current), .state(sword));
  
@@ -24,6 +29,7 @@ always @ (posedge clk) begin
  
 	// at C
 	if (current == 3'b000)
+		next <= 3'b001;
 		if (S == 1)
 			next <= 3'b001;
 	
@@ -61,11 +67,12 @@ always @ (posedge clk) begin
 	if (current == 3'b110) 
 		win <= 0;
  
-	current <= next;
+	
 	
 end
  
-// always @ (negedge clk)
+always @ (negedge clk)
+	current <= next;
 	
 	
 endmodule

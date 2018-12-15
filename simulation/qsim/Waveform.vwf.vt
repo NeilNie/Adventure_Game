@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "12/10/2018 10:52:50"
+// Generated on "12/11/2018 23:57:28"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          Adventure_Game
 // 
@@ -55,7 +55,7 @@ Adventure_Game i1 (
 );
 initial 
 begin 
-#30000 $finish;
+#45000 $finish;
 end 
 
 // clk
@@ -72,6 +72,7 @@ begin
 	E = 1'b1;
 	E = #5000 1'b0;
 	E = #15000 1'b1;
+	E = #15000 1'b0;
 end 
 
 // N

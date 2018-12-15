@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER1/Digital Logic/Adventure_Game/simulation/modelsim
+vAdventure_Game
+Z1 !s110 1544627383
+!i10b 1
+!s100 PjY=kOK0`;iL<be@C_f[X3
+ICf<WGbBFA_EZh<zi=HnO_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544627358
+8C:/Users/USER1/Digital Logic/Adventure_Game/Adventure_Game.v
+FC:/Users/USER1/Digital Logic/Adventure_Game/Adventure_Game.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544627383.000000
+!s107 C:/Users/USER1/Digital Logic/Adventure_Game/Adventure_Game.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER1/Digital Logic/Adventure_Game|C:/Users/USER1/Digital Logic/Adventure_Game/Adventure_Game.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/USER1/Digital Logic/Adventure_Game}
+Z7 tCvgOpt 0
+n@adventure_@game
+vSword_FSM
+R1
+!i10b 1
+!s100 LAM=A_X0j3ea6c1U9EOg;3
+I]:NzQkYCSB[<V28<kSj7m2
+R2
+R0
+w1544412365
+8C:/Users/USER1/Digital Logic/Adventure_Game/Sword_FSM.v
+FC:/Users/USER1/Digital Logic/Adventure_Game/Sword_FSM.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/USER1/Digital Logic/Adventure_Game/Sword_FSM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER1/Digital Logic/Adventure_Game|C:/Users/USER1/Digital Logic/Adventure_Game/Sword_FSM.v|
+!i113 1
+R5
+R6
+R7
+n@sword_@f@s@m
+vtb
+!s110 1544627384
+!i10b 1
+!s100 N]CF65lYGNF9HRgADF8`80
+I<45UL^0BbajId<=ZcTG7F1
+R2
+R0
+w1544627126
+8C:/Users/USER1/Digital Logic/Adventure_Game/tb.v
+FC:/Users/USER1/Digital Logic/Adventure_Game/tb.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1544627384.000000
+!s107 C:/Users/USER1/Digital Logic/Adventure_Game/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER1/Digital Logic/Adventure_Game|C:/Users/USER1/Digital Logic/Adventure_Game/tb.v|
+!i113 1
+R5
+R6
+R7
